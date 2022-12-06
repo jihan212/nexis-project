@@ -56,7 +56,7 @@ const LoginPage = () => {
 							<Link to='/attendance'>
 								<button
 									type='submit'
-									className='btn btn-primary mt-5'
+									className='button mt-5'
 								>
 									Log In
 								</button>

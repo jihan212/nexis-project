@@ -64,8 +64,10 @@ const Attendance = () => {
 					alt=''
 				/>
 			</Link>
+			{/* text-center bg-primary text-white fw-semibold fs-5 px-5 py-2
+			rounded-9 */}
 			<div className='d-flex justify-content-center '>
-				<p className='text-center bg-primary text-white fw-semibold fs-5 px-5 py-2 rounded-9'>
+				<p className='attendanceHeader px-5 py-2 fs-5'>
 					Attendance Information
 				</p>
 			</div>

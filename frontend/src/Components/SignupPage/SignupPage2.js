@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import ultimateLogo from '../../Images/ultimateLogo.png';
 import istockphoto from '../../Images/istockphoto.png';
+import { AiOutlineArrowRight } from 'react-icons/ai';
 
 const SignupPage2 = () => {
 	return (
@@ -60,9 +61,10 @@ const SignupPage2 = () => {
 									<Link to='/signup3'>
 										<button
 											type='submit'
-											className='btn btn-primary mt-5'
+											className='button mt-5'
 										>
 											Next Step
+											<AiOutlineArrowRight className='m-1' />
 										</button>
 									</Link>
 								</div>
